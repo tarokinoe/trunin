@@ -1,0 +1,12 @@
+{
+    "tgmbot_token": "424242424242",
+    "tgmbot_group_chat_id": "42424242",
+    "vk_access_token": "42424242442",
+    "vk_owner_id": "-424242",
+    "vk_excluded_albums": [
+        "42424242",
+        "4242424242",
+        "424242424242"
+    ],
+    "timezone": "Asia/Irkutsk"
+}
