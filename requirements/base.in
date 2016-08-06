@@ -1,0 +1,4 @@
+python-telegram-bot==5.0.0
+pytz==2016.6.1
+SQLAlchemy==1.0.14
+vk==2.0.2
