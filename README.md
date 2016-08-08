@@ -44,8 +44,8 @@ cp settings.json.example settings.json
 ```
 7. Add cron job. In this example we have added job, which will run /path/to/trunin/trunin/send_photo.sh everyday at 12 o'clock.
 ```
-sudo vim /etc/crontab
+sudo crontab -u trunin -e
 ```
 ```
-0 12 * * *   trunin    /path/to/trunin/trunin/send_photo.sh
+0 12 * * * /home/trunin/trunin/trunin/send_photo.sh
 ```

@@ -1,8 +1,7 @@
 #!/bin/bash
 
-SCRIPT_DIR="$(pwd)"
-source /usr/local/bin/virtualenvwrapper.sh
-workon trunin
-cd $SCRIPT_DIR
-./manage.py send_photo
+USER_HOME=$(eval echo ~$USER)
+source $USER_HOME/.virtualenvs/trunin/bin/activate
+cd $USER_HOME/trunin/trunin
+$USER_HOME/trunin/trunin/manage.py send_photo
 deactivate
