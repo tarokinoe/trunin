@@ -9,6 +9,6 @@ future==0.15.2            # via python-telegram-bot
 python-telegram-bot==5.0.0
 pytz==2016.6.1
 requests==2.10.0          # via vk
-SQLAlchemy==1.0.14
-urllib3==1.16             # via python-telegram-bot
+sqlalchemy==1.0.14
+urllib3==1.24.2           # via python-telegram-bot
 vk==2.0.2
